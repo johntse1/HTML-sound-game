@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:;
+  color:white;
+  background-image:url("https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2F468653.jpg?v=1615763353315");
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-weight:bold;
+}
+
+h1 {
+  font-family:verdana,arial,sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+button {
+  margin:2px;
+  border-radius:10px;
+  color: black;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden{display:none
+}
+#button1{
+  width:250px;
+  height:250px;
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fcleveland.jpg?v=1615756296076);
+}
+#button1:active,#button1.lit {
+  /*opacity:0.5;*/
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fcleveland2.jpg?v=1615761266327);
+}
+#button2{
+  width:250px;
+  height:250px;
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fstewie.png?v=1615756444252);
+}
+#button2:active, #button2.lit {
+  /*opacity:0.5;*/
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fstewielaugh.gif?v=1615761278222);
+}
+#button3{
+  width:250px;
+  height:250px;
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fpeter.jpg?v=1615756434759);
+}
+#button3:active,#button3.lit {
+  /*opacity:0.5;*/
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fpeterlaugh.jpg?v=1615761274698);
+}
+#button4{
+    width:250px;
+  height:250px;
+    background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Flois.jpg?v=1615756438545);
+}
+#button4:active,#button4.lit {
+  /*opacity:0.5;*/
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Flois2.jpg?v=1615761271034);
+}
+#button5{
+  width:250px;
+  height:250px;
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fquagmire.png?v=1616613033970);
+}
+#button5:active,#button5.lit{
+  background-image: url(https://cdn.glitch.com/d8a663ac-0019-477b-b006-ce31b2c407d2%2Fquagmire2.jpg?v=1616613136411);
+}
+
+#startBtn{
+  color:green;
+  font-size:24px;
+}
+#stopBtn{
+  color:red;
+  font-size:24px;
+}
+#mistakes{
+  color:red;
+  font-size:32px;
+  font-weight:bold;
+}
+#timer{
+ border-style:solid;
+ border-color:#287EC7;
+  display:inline;
+  font-size:36px;
+  padding:10px;
+}
